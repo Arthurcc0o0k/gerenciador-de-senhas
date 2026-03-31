@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Arquivos de configuração local
+config.json
+passwords.db
+key.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+*.backup
+
+# Arquivos de exportação (por segurança)
+senhas_backup_*.json
